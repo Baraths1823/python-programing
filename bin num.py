@@ -1,0 +1,8 @@
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+x=(bin(a)[2:])
+print(a,"is",x)
+y=(bin(b)[2:])
+print(b,"is",y)
+sum = bin(int(x, 2) + int(y, 2))
+print(sum[2:])
